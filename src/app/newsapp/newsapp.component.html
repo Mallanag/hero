@@ -1,0 +1,18 @@
+<!-- <div class="gray pb-5">
+    <div class="container d-md-block d-none">
+        <div class="row"> -->
+                
+            <div style="border:solid 10px lightgray;" class="gray pb-5" *ngFor='let a of ar'>
+                    <p style="float:left"><img src="../../assets/images.jpg"></p>
+                    <p (click)="tonextPage(a)">{{a.alias}}</p>
+                    <small>By  {{a.reportedBy}}{{a.reportedDate}}</small>
+                    
+                    <p>{{a.shortDescription}}</p>
+                    
+                    </div>
+                    
+                    
+
+
+
+        
