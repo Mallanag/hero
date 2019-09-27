@@ -1,0 +1,6 @@
+<h3>Albums</h3>
+<hr>
+<span *ngFor="let a of album" (click)="do(a)">
+    <label>Title:</label>
+    <p>{{a.title}}</p>
+</span>

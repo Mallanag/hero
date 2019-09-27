@@ -1,0 +1,9 @@
+<h2>photos</h2>
+<hr>
+<div *ngFor="let c of album" (click)="data(c)">
+    <p>{{c.title}}</p>
+    <!-- <a target="_blank" href="{{c.thumbnailUrl}}"> -->
+            <img src="{{c.thumbnailUrl}}" >
+          <!-- </a> -->
+    
+</div>

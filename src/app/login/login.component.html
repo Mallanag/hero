@@ -1,0 +1,10 @@
+
+<form [formGroup]="tit" >
+    <label>Email:
+    <input type="email" placeholder="Enter your email" formControlName="email">
+    </label><br>
+    <label>Password:
+        <input type="password" placeholder="Enter your password" formControlName="password">
+    </label><br>
+        <button (click)="save(tit.value)">login</button>
+</form>
