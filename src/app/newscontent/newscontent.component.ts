@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewscontentComponent implements OnInit {
 public dat
-  constructor() { }
+  constructor() { } 
 
   ngOnInit() {
     this.dat=JSON.parse(localStorage.getItem('newsData'))
